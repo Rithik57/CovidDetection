@@ -36,7 +36,7 @@ for e in mfcc:
     to_append += f' {np.mean(e)}'
 to_append += ' '+str(age)
 to_append += ' '+str(1)
-to_append += ' '+str(respiratory)
+to_append += ' '+str(0)
 to_append = to_append.split()
 x_test = to_append
 for i in range(len(x_test)) :
